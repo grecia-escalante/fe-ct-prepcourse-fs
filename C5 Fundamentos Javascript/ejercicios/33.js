@@ -7,6 +7,9 @@ function elevar(num, exponent) {
   // 2, 2 ---> 4
   // 0, 5 ---> 0
   // Tu código:
+  var elv = num ** exponent;
+  return elv;
+
 }
 
 module.exports = elevar;
